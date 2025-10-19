@@ -1,6 +1,7 @@
 import string
 
-CARACTERES = string.ascii_letters + string.ascii_punctuation + string.digits + " "
+CARACTERES = string.ascii_letters + string.punctuation + string.digits + " "
+
 
 def crypt(message, pas=1):
     resultat = ""
